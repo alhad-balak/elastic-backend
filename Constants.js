@@ -1,0 +1,18 @@
+exports.constants = {
+    SQL_QUERY: `SELECT * FROM projects`
+    //     SQL_QUERY: `SELECT `
+    //     JSON_UNQUOTE(JSON_EXTRACT(pt.type_name, '$.en')) AS project_type,
+    //     ROUND(6371 * acos(cos(radians(22.85857000)) * cos(radians(p.latitude)) * cos(radians(p.longitude) - radians(51.82114000)) + sin(radians(22.85857000)) * sin(radians(p.latitude))), 2) AS distance,
+    //         p.*
+    //         FROM 
+    //     projects p
+    // JOIN 
+    //     project_types pt ON p.project_type_id = pt.id
+    // WHERE
+    // JSON_UNQUOTE(JSON_EXTRACT(pt.type_name, '$.en')) IN('penthouse', 'studio', 'villa', 'apartment', 'land', 'duplex', 'office')
+    //     AND p.status = 'Complete'
+    // AND 6371 * acos(cos(radians(22.85857000)) * cos(radians(p.latitude)) * cos(radians(p.longitude) - radians(51.82114000)) + sin(radians(22.85857000)) * sin(radians(p.latitude))) <= 100
+    // ORDER BY 
+    //     distance ASC; `,
+}
+
